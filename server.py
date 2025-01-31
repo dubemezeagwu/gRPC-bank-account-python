@@ -41,7 +41,7 @@ class BankServiceServicer(bank_pb2_grpc.BankServiceServicer):
             'account_type': request.account_type,
             'balance': 0.0
         }
-        self.redis_client.hmset(request.account_id, account_data)
+        self.redis_client.hset(request.account_id, account_data)
 
         return bank_pb2.AccountResponse(
             account_id=request.account_id,

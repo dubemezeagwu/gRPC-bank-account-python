@@ -92,5 +92,30 @@ def main():
     balance = client.get_balance("1234")
     print(f"Final balance: ${balance:.2f}")
 
+# def main():
+#     # Create a client instance
+#     client = BankClient()
+
+#     # Example usage
+#     print("Creating new account...")
+#     print(client.create_account("5678", "savings"))
+
+#     print("\nDepositing money...")
+#     print(client.deposit("5678", 1000.0))
+
+#     print("\nChecking balance...")
+#     balance = client.get_balance("5678")
+#     print(f"Current balance: ${balance:.2f}")
+
+#     print("\nWithdrawing money...")
+#     print(client.withdraw("5678", 500.0))
+
+#     print("\nCalculating interest...")
+#     print(client.calculate_interest("5678", 2.5))
+
+#     print("\nFinal balance...")
+#     balance = client.get_balance("5678")
+#     print(f"Final balance: ${balance:.2f}")
+
 if __name__ == '__main__':
     main()

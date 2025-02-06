@@ -139,9 +139,3 @@ Potential enhancements could include:
 - Adding authentication and authorization
 - Supporting different currencies
 - Adding account statements generation
-
-## Contributing
-This is an educational project for the CS 4459/9644: Scalable and Reliable Distributed Systems course. If you'd like to contribute, please ensure your changes maintain the educational objectives of the project.
-
-## License
-This project is created for educational purposes as part of a course assignment.
